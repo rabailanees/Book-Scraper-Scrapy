@@ -52,13 +52,6 @@ You can also export the scraped data to a CSV file:
 scrapy crawl books -o books.csv
 ```
 
-## Directory Structure
-
-- **spiders/**: Contains the Scrapy spiders to scrape data from the website.
-- **items.py**: Defines the structure of the data to be scraped.
-- **pipelines.py**: Defines how to process the scraped data.
-- **settings.py**: Contains project settings for Scrapy.
-
 ## License
 
 This project is licensed under the MIT License.
